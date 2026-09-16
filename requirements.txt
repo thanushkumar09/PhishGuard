@@ -1,0 +1,5 @@
+streamlit
+tldextract
+scikit-learn
+pandas
+joblib
