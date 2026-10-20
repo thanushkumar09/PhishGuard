@@ -16,7 +16,7 @@ COPY package*.json ./
 COPY requirements.txt ./
 
 # 🛠️ Execute Core Applications Runtime Packages Installation Scripts Automation Commands
-RUN npm ci
+RUN npm install
 RUN pip3 install --no-cache-dir -r requirements.txt --break-system-packages
 
 # 🚚 Copy Balance Internal Systems Complete Structural Code Workspace Repository Source Codes
